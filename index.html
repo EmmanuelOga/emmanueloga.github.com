@@ -1,1 +1,19 @@
-hello world
+---
+layout: default
+title: Emmanuel Oga's Blog
+---
+<div id='main'>
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h1>Online Profiles</h1>
+  <ul class="profiles">
+    <li><a href="http://github.com/EmmanuelOga/">http://github.com/EmmanuelOga/</a> Home for most of my open source code.</li>
+    <li><a href="http://twitter.com/EmmanuelOga/">http://twitter.com/EmmanuelOga/</a> Twitter account.</li>
+    <li><a href="http://google.com/profile/EmmanuelOga/">http://google.com/profile/EmmanuelOga/</a> Google profile.</li>
+  </ul>
+</div>

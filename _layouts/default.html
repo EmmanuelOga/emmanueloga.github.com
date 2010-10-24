@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class='no-js' lang='en'>
+  <!--<![endif]-->
+  <head>
+    <meta charset='utf-8' />
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+    <title>{{ page.title }}</title>
+    <meta content='A blog from Argentina based software developer Emmanuel Oga' name='description' />
+    <meta content='Emmanuel Oga' name='author' />
+    <meta content='width=device-width; initial-scale=1.0' name='viewport' />
+    <link href='/css/style.css?v=1' media='all' rel='stylesheet' />
+    <script src='/js/modernizr-1.5.min.js'></script>
+  </head>
+
+  <body>
+    <div id='container'>
+      <header>
+        <div class="title">
+          <a href="/">Emmanuel Oga's Blog</a>
+          <a class="extra" href="/">home</a>
+        </div>
+      </header>
+
+      {{ content }}
+
+      <footer>
+        <div class="contact">
+          <p>
+            Emmanuel Oga<br />
+            <a href="http://github.com/EmmanuelOga">Software Developer</a><br />
+            <a href="mailto://contact@emmanueloga.com">contact@emmanueloga.com</a>
+          </p>
+        </div>
+
+        <div class="contact">
+          <p>
+            <a href="http://github.com/mojombo/">github.com/mojombo</a><br />
+            <a href="http://twitter.com/mojombo/">twitter.com/mojombo</a><br />
+            <a href="http://flickr.com/photos/mojombo/">flickr.com/photos/mojombo</a>
+          </p>
+        </div>
+
+        <div class="rss">
+          <a href="http://feeds.feedburner.com/emmanueloga">
+            <img src="/images/RSS_32.png" alt="Subscribe to RSS Feed" />
+          </a>
+        </div>
+      </footer>
+    </div>
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>
+
+    <script type='text/javascript'>
+      //<![CDATA[
+        !window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.4.2.min.js"%3E%3C/script%3E'))
+      //]]>
+    </script>
+
+    <script src='js/plugins.js?v=1'></script>
+    <script src='js/script.js?v=1'></script>
+
+    <!--[if lt IE 7 ]>
+      <script src='js/dd_belatedpng.js'></script>
+      <script type='text/javascript'>
+        //<![CDATA[
+          DD_belatedPNG.fix('img, .png_bg');
+        //]]>
+      </script>
+    <![endif]-->
+
+    <script type='text/javascript'>
+      //<![CDATA[
+        var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+        (function(d, t) {
+         var g = d.createElement(t),
+             s = d.getElementsByTagName(t)[0];
+         g.async = true;
+         g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         s.parentNode.insertBefore(g, s);
+        })(document, 'script');
+      //]]>
+    </script>
+
+  </body>
+</html>
