@@ -2,7 +2,7 @@ markdown: rdiscount
 pygments: true
 lsi: true
 future: false
-exclude: ["src", "config.rb", "README.textile"]
+exclude: ["src", "config.rb", "README.textile", "update.sh"]
 
 # auto: true
 # safe:        false

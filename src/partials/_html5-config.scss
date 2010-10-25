@@ -9,7 +9,11 @@
 //--------------------------------
 @include html5-boilerplate-fonts($base-font-family, $base-font-size, $base-line-height);
 
-h1, h2, h3, h4, h5, h6 { font-weight: bolder }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-family: "ChunkFiveRegular", "Georgia", "Palatino", "Times New Roman", "Baskerville", "Hoefler Text", serif;
+}
+
 
 h1 { font-size: 2em    ; margin: 0.67em 0; }
 h2 { font-size: 1.5em  ; margin: 0.75em 0; }
