@@ -1,23 +1,31 @@
 ---
 layout: default
-title: Emmanuel Oga
+title: Emmanuel Oga's place on the interwebz
 ---
-<div id='main'>
+<section>
+  <h1>Welcome!</h1>
+  <p>
+    My name is Emmanuel. I'm a <a rel="me" href="http://ar.linkedin.com/in/emmanueloga">software developer</a> based in Buenos Aires, Argentina.
+  </p>
+  <p>
+    This blog is a work in progress. I <a href="http://emmanueloga.wordpress.com">grown tired of WordPress</a> (and web
+    form based blogging in general) and so I migrated to <a href="http://github.com/mojombo/jekyll">jekyll</a>
+    for a change.
+  </p>
+  <p>
+    You might be interested in <a href="http://github.com/EmmanuelOga">my open source repositories</a>.
+    Also, there is a list of <a href="#online-profiles">my online profiles</a> at the bottom of this page.
+  </p>
+  <p>
+    Thanks for visiting!
+  </P
+</section>
+
+<section>
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-
-  <h1>Online Profiles</h1>
-  <ul class="profiles">
-    <li> <a href="http://github.com/EmmanuelOga/">                      http://github.com/EmmanuelOga/</a></li>
-    <li> <a href="http://twitter.com/EmmanuelOga/">                     http://twitter.com/EmmanuelOga/</a></li>
-    <li> <a href="http://google.com/profile/EmmanuelOga/">              http://google.com/profile/EmmanuelOga/</a></li>
-    <li> <a href="http://ar.linkedin.com/in/emmanueloga">               http://ar.linkedin.com/in/emmanueloga</a></li>
-    <li> <a href="http://workingwithrails.com/person/8773-emmanuel-oga">http://workingwithrails.com/person/8773-emmanuel-oga</a></li>
-    <li> <a href="http://www.google.com/profiles/emmanueloga">          http://www.google.com/profiles/emmanueloga</a></li>
-    <li> <a href="http://www.last.fm/user/EmmanuelOga">                 http://www.last.fm/user/EmmanuelOga</a></li>
-  </ul>
-</div>
+</section>

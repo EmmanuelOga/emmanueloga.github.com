@@ -18,50 +18,33 @@
   </head>
 
   <body>
-    <div id='container'>
-      <header>
-        <div class="title">
-          <span class="logo"><a href="/" class="logo_link">Emmanuel Oga</a></span>
-        </div>
-      </header>
+    <header id="banner">
+      <div style="float: right">...and his place on the interwebz</div>
+      <h1 class="logo">
+        <a href="#" class="logo_link">Emmanuel Oga</a>
+      </h1>
 
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Archives</a></li>
-          <li><a href="#">RSS</a></li>
+          <li><a href="/" rel="link" class="active">Home</a></li>
+          <li><a href="/atom.xml" rel="link" class="">Feed</a></li>
         </ul>
       </nav>
+    </header>
 
-      <section>
-        {{ content }}
-      </section>
+    {{ content }}
 
-      <footer>
-        <div class="contact">
-          <p>
-            Emmanuel Oga<br />
-            <a href="http://github.com/EmmanuelOga">Software Developer</a><br />
-            <a href="mailto://contact@emmanueloga.com">contact@emmanueloga.com</a>
-          </p>
-        </div>
-
-        <div class="contact">
-          <p>
-            <a href="http://github.com/EmmanuelOga/">github.com/EmmanuelOga</a><br />
-            <a href="http://twitter.com/EmmanuelOga/">twitter.com/EmmanuelOga</a><br />
-          </p>
-        </div>
-
-        <div class="rss">
-          <a href="http://feeds.feedburner.com/emmanueloga">
-            <img src="/images/RSS_32.png" alt="Subscribe to RSS Feed" />
-          </a>
-        </div>
-      </footer>
-    </div>
+    <footer id="footer">
+      <h3>Some of <a name="online-profiles">my profiles</a> elsewhere</h3>
+      <ul class="external">
+        <li><a rel="me" href="http://github.com/EmmanuelOga/">                      http://github.com/EmmanuelOga/</a></li>
+        <li><a rel="me" href="http://twitter.com/EmmanuelOga/">                     http://twitter.com/EmmanuelOga/</a></li>
+        <li><a rel="me" href="http://google.com/profile/EmmanuelOga/">              http://google.com/profile/EmmanuelOga/</a></li>
+        <li><a rel="me" href="http://ar.linkedin.com/in/emmanueloga">               http://ar.linkedin.com/in/emmanueloga</a></li>
+        <li><a rel="me" href="http://workingwithrails.com/person/8773-emmanuel-oga">http://workingwithrails.com/person/8773-emmanuel-oga</a></li>
+        <li><a rel="me" href="http://www.last.fm/user/EmmanuelOga">                 http://www.last.fm/user/EmmanuelOga</a></li>
+      </ul>
+    </footer>
 
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>
 
