@@ -1,6 +1,6 @@
 markdown: rdiscount
 pygments: true
-lsi: true
+lsi: false
 future: false
 exclude: ["src", "config.rb", "README.textile", "update.sh"]
 
