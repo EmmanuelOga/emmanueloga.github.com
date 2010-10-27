@@ -132,25 +132,25 @@ h1 {
 /* line 18, ../src/partials/_html5-config.scss */
 h2 {
   font-size: 1.5em;
-  margin: 0 0 0.75em 0;
+  margin: 0.75em 0 0.75em 0;
 }
 
 /* line 19, ../src/partials/_html5-config.scss */
 h3 {
   font-size: 1.17em;
-  margin: 0 0 0.83em 0;
+  margin: 0.83em 0 0.83em 0;
 }
 
 /* line 20, ../src/partials/_html5-config.scss */
 h5 {
   font-size: .83em;
-  margin: 0 0 1.5em  0;
+  margin: 1.5em  0 1.5em  0;
 }
 
 /* line 21, ../src/partials/_html5-config.scss */
 h6 {
   font-size: .75em;
-  margin: 0 0 1.67em 0;
+  margin: 1.67em 0 1.67em 0;
 }
 
 /* line 23, ../src/partials/_html5-config.scss */
@@ -170,37 +170,43 @@ html {
 }
 
 /* line 35, ../src/partials/_html5-config.scss */
+p {
+  padding: 5px;
+  margin: 5px;
+}
+
+/* line 39, ../src/partials/_html5-config.scss */
 a, a:active, a:visited {
   color: #111111;
 }
 
-/* line 36, ../src/partials/_html5-config.scss */
+/* line 40, ../src/partials/_html5-config.scss */
 a:hover {
   color: #2255bb;
 }
 
-/* line 38, ../src/partials/_html5-config.scss */
+/* line 42, ../src/partials/_html5-config.scss */
 ul, ol {
   margin-left: 1.8em;
 }
 
-/* line 39, ../src/partials/_html5-config.scss */
+/* line 43, ../src/partials/_html5-config.scss */
 ol {
   list-style-type: decimal;
 }
 
-/* line 41, ../src/partials/_html5-config.scss */
+/* line 45, ../src/partials/_html5-config.scss */
 td, td img {
   vertical-align: top;
 }
 
-/* line 43, ../src/partials/_html5-config.scss */
+/* line 47, ../src/partials/_html5-config.scss */
 sub {
   vertical-align: sub;
   font-size: smaller;
 }
 
-/* line 45, ../src/partials/_html5-config.scss */
+/* line 49, ../src/partials/_html5-config.scss */
 sup {
   vertical-align: super;
   font-size: smaller;
@@ -280,7 +286,7 @@ button {
   margin-left: -7px;
 }
 
-/* line 65, ../src/partials/_html5-config.scss */
+/* line 69, ../src/partials/_html5-config.scss */
 .ir {
   text-indent: -119988px;
   overflow: hidden;
@@ -289,20 +295,20 @@ button {
   background-repeat: no-repeat;
 }
 
-/* line 67, ../src/partials/_html5-config.scss */
+/* line 71, ../src/partials/_html5-config.scss */
 .hidden {
   display: none;
   visibility: hidden;
 }
 
-/* line 69, ../src/partials/_html5-config.scss */
+/* line 73, ../src/partials/_html5-config.scss */
 .visuallyhidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-/* line 71, ../src/partials/_html5-config.scss */
+/* line 75, ../src/partials/_html5-config.scss */
 .clearfix {
   *zoom: 1;
 }
