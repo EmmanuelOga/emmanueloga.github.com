@@ -1,12 +1,12 @@
 ---
 layout: post
-title: See you at rubyconf.br!
+title: Ruby conferences in Brazil and Uruguay
 ---
 
 {{ page.title }}
 ================
 
-<p class="meta">30 October 2010</p>
+<p class="meta">31 October 2010</p>
 
 This year I could attend both rubyconf Brazil and Uruguay. Both conferences had
 great talks and summarizing everything would be overkill, so I'll instead post
