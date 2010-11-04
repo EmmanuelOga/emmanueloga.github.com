@@ -12,11 +12,10 @@ This year I could attend both rubyconf Brazil and Uruguay. Both conferences had
 great talks and summarizing everything would be overkill, so I'll instead post
 some brief notes.
 
-* [http://rubyconf.com.br/](http://rubyconf.com.br/ "RubyConf Brazil")
-* [http://www.rubyconf.com.br/en/schedule](http://www.rubyconf.com.br/en/schedule "Brazil Schedule")
-
-* [http://rubyconfuruguay.org/en/agenda](http://rubyconfuruguay.org/en/agenda "Uruguay Schedule")
-* [http://rubyconfuruguay.org](http://rubyconfuruguay.org "RubyConf Uruguay")
+* [RubyConf Brazil's Site](http://rubyconf.com.br/ "RubyConf Brazil")
+* [RubyConf Brazil's Schedule](http://www.rubyconf.com.br/en/schedule "RubyConf Brazil's Schedule")
+* [RubyConf Uruguay's Site](http://rubyconfuruguay.org "RubyConf Uruguay")
+* [RubyConf Uruguay's Schedule](http://rubyconfuruguay.org/en/agenda "Uruguay Schedule")
 
 My Notes
 --------
