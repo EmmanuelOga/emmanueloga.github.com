@@ -448,7 +448,7 @@ button {
 .logo {
   font-family: "ChunkFiveRegular", "Georgia", "Palatino", "Times New Roman", "Baskerville", "Hoefler Text", serif;
   font-weight: normal;
-  font-size: 48px;
+  font-size: 32px;
 }
 
 /* line 7, ../src/partials/_logo.scss */
@@ -494,19 +494,27 @@ input:invalid, textarea:invalid {
 
 /* line 33, ../src/partials/_page.scss */
 body {
-  background-color: #efefef;
   clear: both;
-  margin: 10px auto;
+  margin: 25px auto;
   width: 960px;
+  background-color: white;
 }
 
-/* line 38, ../src/partials/_page.scss */
+/* line 40, ../src/partials/_page.scss */
+#wrapper {
+  width: 940px;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: #fffffa;
+}
+
+/* line 47, ../src/partials/_page.scss */
 p.meta {
   font-weight: bold;
   color: #33f;
 }
 
-/* line 43, ../src/partials/_page.scss */
+/* line 52, ../src/partials/_page.scss */
 aside, section {
   margin: 15px 0 30px 0;
   padding-left: 10px;
@@ -522,25 +530,24 @@ aside, section {
   border-radius: 5px;
   background: #000;
   padding: 0;
-  margin: 0 auto 1em auto;
+  margin: 0;
   font-size: 1.143em;
-  height: 40px;
-  line-height: 30px;
+  height: 32px;
+  line-height: 22px;
   text-align: center;
 }
 /* line 14, ../src/partials/_global.scss */
 #banner nav ul {
   list-style: none;
   margin: 0 auto;
-  width: 960px;
 }
-/* line 17, ../src/partials/_global.scss */
+/* line 18, ../src/partials/_global.scss */
 #banner nav ul li {
   float: left;
   display: inline;
   margin: 0;
 }
-/* line 20, ../src/partials/_global.scss */
+/* line 21, ../src/partials/_global.scss */
 #banner nav ul li:first-child a {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -549,11 +556,10 @@ aside, section {
   -khtml-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 24, ../src/partials/_global.scss */
+/* line 25, ../src/partials/_global.scss */
 #banner nav ul li a {
   color: white;
   display: inline-block;
-  height: 30px;
   padding: 5px 1.5em;
   text-decoration: none;
 }
@@ -581,15 +587,16 @@ aside, section {
   -ms-border-radius: 5px;
   -khtml-border-radius: 5px;
   border-radius: 5px;
-  padding: 5px;
   border-top: 5px solid #11e;
   background-color: #ddd;
+  padding: 5px;
 }
-/* line 53, ../src/partials/_global.scss */
+/* line 52, ../src/partials/_global.scss */
 #footer ul.external {
+  padding: 5px;
+  padding-left: 25px;
   list-style: none;
   margin-left: 0;
-  padding-left: 1em;
   text-indent: -1em;
 }
 /* line 58, ../src/partials/_global.scss */

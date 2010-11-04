@@ -31,8 +31,17 @@ input:invalid, textarea:invalid {
 //-----------------------------------
 
 body {
-  background-color: #efefef;
-  clear: both; margin: 10px auto; width: 960px;
+  clear: both;
+  margin: 25px auto;
+  width: 960px;
+  background-color: white;
+}
+
+#wrapper {
+  width: 940px;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: rgb(255, 255, 250);
 }
 
 p.meta {
