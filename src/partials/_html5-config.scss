@@ -33,7 +33,8 @@ body, select, input, textarea { color: $font-color; }
 html { @include force-scrollbar; }
 
 p {
-  padding: 5px; margin: 5px;
+  padding: 5px 10px;
+  margin: 5px;
 }
 
 a, a:active, a:visited { color: $link-color; }

@@ -21,41 +21,87 @@
   </head>
 
   <body>
-    <header id="banner">
-      <div style="float: right">...and his place on the interwebz</div>
-      <h1 class="logo">
-        <a href="#" class="logo_link">Emmanuel Oga</a>
-      </h1>
-
-      <nav>
-        <ul>
-          <li><a href="/" rel="link" class="active">Home</a></li>
-          <li><a href="http://feeds.feedburner.com/EmmanuelOga" rel="link" class="">Feed</a></li>
-        </ul>
-      </nav>
-    </header>
-
     <div id="wrapper">
-      {{ content }}
+      <header id="banner" class="header">
+        <div style="float: right">...and his place on the interwebz</div>
+        <h1 class="logo">
+          <a href="#" class="logo_link">Emmanuel Oga</a>
+        </h1>
+
+        <nav>
+          <ul>
+            <li><a href="/" rel="link" class="active">Home</a></li>
+            <li><a href="http://feeds.feedburner.com/EmmanuelOga" rel="link" class="">Feed</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="content">
+        <div class="content_wrapper">
+          {{ content }}
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <div id="twits">
+          <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+          <script>
+            new TWTR.Widget({
+              version: 2,
+              type: 'profile',
+              rpp: 8,
+              interval: 6000,
+              width: 250,
+              height: 300,
+              theme: {
+                shell: {
+                  background: '#333333',
+                  color: '#ffffff'
+                },
+                tweets: {
+                  background: '#faf9ed',
+                  color: '#000000',
+                  links: '#0011ff'
+                }
+              },
+              features: {
+                scrollbar: true,
+                loop: false,
+                live: true,
+                hashtags: true,
+                timestamp: true,
+                avatars: true,
+                behavior: 'all'
+              }
+            }).render().setUser('EmmanuelOga').start();
+          </script>
+        </div>
+      </div>
+
+      <footer id="footer" class="footer">
+        <div class="foot_left">
+          <h3>Some of <a name="online-profiles">my profiles</a> elsewhere</h3>
+          <ul class="external">
+            <li><a rel="me" href="http://github.com/EmmanuelOga/">                      http://github.com/EmmanuelOga/</a></li>
+            <li><a rel="me" href="http://twitter.com/EmmanuelOga/">                     http://twitter.com/EmmanuelOga/</a></li>
+            <li><a rel="me" href="http://google.com/profile/EmmanuelOga/">              http://google.com/profile/EmmanuelOga/</a></li>
+            <li><a rel="me" href="http://ar.linkedin.com/in/emmanueloga">               http://ar.linkedin.com/in/emmanueloga</a></li>
+            <li><a rel="me" href="http://workingwithrails.com/person/8773-emmanuel-oga">http://workingwithrails.com/person/8773-emmanuel-oga</a></li>
+            <li><a rel="me" href="http://www.last.fm/user/EmmanuelOga">                 http://www.last.fm/user/EmmanuelOga</a></li>
+          </ul>
+        </div>
+
+        <div class="foot_mid">
+          <a href="http://www.twitter.com/EmmanuelOga"><img src="http://twitter-badges.s3.amazonaws.com/follow_me-c.png" alt="Follow EmmanuelOga on Twitter"/></a>
+        </div>
+
+        <div class="foot_right">
+          <a href="http://feeds.feedburner.com/EmmanuelOga">
+            <img src="http://feeds.feedburner.com/~fc/EmmanuelOga?bg=99CCFF&amp;fg=444444&amp;anim=1" height="26" width="88" style="border:0" alt="" />
+          </a>
+        </div>
+      </footer>
     </div>
-
-    <footer id="footer">
-      <h3>Some of <a name="online-profiles">my profiles</a> elsewhere</h3>
-      <ul class="external">
-        <li><a rel="me" href="http://github.com/EmmanuelOga/">                      http://github.com/EmmanuelOga/</a></li>
-        <li><a rel="me" href="http://twitter.com/EmmanuelOga/">                     http://twitter.com/EmmanuelOga/</a></li>
-        <li><a rel="me" href="http://google.com/profile/EmmanuelOga/">              http://google.com/profile/EmmanuelOga/</a></li>
-        <li><a rel="me" href="http://ar.linkedin.com/in/emmanueloga">               http://ar.linkedin.com/in/emmanueloga</a></li>
-        <li><a rel="me" href="http://workingwithrails.com/person/8773-emmanuel-oga">http://workingwithrails.com/person/8773-emmanuel-oga</a></li>
-        <li><a rel="me" href="http://www.last.fm/user/EmmanuelOga">                 http://www.last.fm/user/EmmanuelOga</a></li>
-      </ul>
-
-      <p>
-        <a href="http://feeds.feedburner.com/EmmanuelOga">
-          <img src="http://feeds.feedburner.com/~fc/EmmanuelOga?bg=99CCFF&amp;fg=444444&amp;anim=1" height="26" width="88" style="border:0" alt="" />
-        </a>
-      </p>
-    </footer>
 
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>
 

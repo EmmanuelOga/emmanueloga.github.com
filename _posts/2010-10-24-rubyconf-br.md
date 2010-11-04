@@ -2,10 +2,6 @@
 layout: post
 title: See you at rubyconf.br!
 ---
-
-{{ page.title }}
-================
-
 <p class="meta">24 October 2010</p>
 
 Tomorrow I'm travelling to Sao Pablo, Brazil, to attend my first

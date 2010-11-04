@@ -2,10 +2,6 @@
 layout: post
 title: Ruby conferences in Brazil and Uruguay
 ---
-
-{{ page.title }}
-================
-
 <p class="meta">31 October 2010</p>
 
 This year I could attend both rubyconf Brazil and Uruguay. Both conferences had
