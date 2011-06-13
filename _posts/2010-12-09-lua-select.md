@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Lua's multiple arguments and the "select" function
+date: 09 December 2010
 ---
-<p class="meta">09 December 2010</p>
-
 When I first read about lua's select function I found it a little
 confusing.
 
@@ -62,7 +61,7 @@ nil: nothing. If you try to pack NOTHING into a table, you get an empty
 table:
 
 {% highlight lua %}
-print #{(function()end)()} --> 0
+print(#{(function()end)()}) --> 0
 {% endhighlight %}
 
 Finally, if you pass "#" as index, the function returns a count of the

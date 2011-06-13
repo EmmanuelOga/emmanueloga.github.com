@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Ruby conferences in Brazil and Uruguay
+date: 31 October 2010
 ---
-<p class="meta">31 October 2010</p>
-
 This year I could attend both rubyconf Brazil and Uruguay. Both conferences had
 great talks and summarizing everything would be overkill, so I'll instead post
 some brief notes.
@@ -119,5 +118,4 @@ platform to develop mobile applications.
 
 Evan Henshaw-Plath ([@rabble](http://twitter.com/rabble)) closed the Uruguay
 conference with a great keynote where he talked about the characteristics of
-the ruby community. He made some poignant references to _why (pun intended) and
-some other guys from the ruby scene.
+the ruby community.
