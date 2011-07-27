@@ -11,8 +11,9 @@
 
 body {
   background-image: url(/images/bg.png);
-  color: #012340;
+  color: black;
   padding-top: 16px;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container_12 {
   background: #fafafa;
-  opacity: 0.98;
+  opacity: 0.985;
 }
 
 h2,
@@ -38,11 +39,12 @@ h4, h4 a, h5, h5 a, h6, h6 a { color: #28C07B; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { text-decoration: none; }
 
 a {
-  color: #015367;
+  font-weight: bold;
+  color: #013347;
 }
 
 a:hover {
-  color: #FCE913;
+  color: #ACE913;
 }
 
 small {
@@ -65,7 +67,7 @@ small {
 
 pre,
 code {
-  font-family: "Andale Mono", Menlo, Courier New, Courier, Mono, monospace; font-size: 0.994em;
+  font-family: "Andale Mono", Menlo, Courier New, Courier, Mono, monospace; font-size: 14px;
 }
 
 pre,
@@ -93,5 +95,8 @@ code {
 .logo a {
   font-family: "Lato", "Arial", "Helvetica", "Lucida Grande", "Gill Sans", "Verdana", sans-serif;
   font-size: 36px;
+}
+.logo a:hover {
+  color: #FCE913;
 }
 .external { margin: -8px 0; padding: 4px; float: right; }
