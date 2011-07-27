@@ -1,7 +1,7 @@
 markdown: rdiscount
 pygments: true
 lsi: false
-future: false
+future: true
 auto: false
 safe: true
 source: .
