@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Taming a Capybara
-date: 27 July 2011
+date: 26 July 2011
 ---
 
 <div class="align_center">
