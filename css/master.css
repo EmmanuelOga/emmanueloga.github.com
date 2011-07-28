@@ -10,7 +10,7 @@
 */
 
 body {
-  background-image: url(/images/bg.png);
+  background-image: url(/images/wood.jpg);
   color: black;
   padding-top: 16px;
   font-size: 16px;
@@ -21,8 +21,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container_12 {
-  background: #fafafa;
-  opacity: 0.985;
+  padding: 25px 25px 10px 25px;
+  opacity: 0.95;
+  background-color: #fff;
+
+   -moz-box-shadow: 5px 5px 5px #bb9;
+  -webkit-box-shadow: 5px 5px 5px #bb9;
+  box-shadow: 5px 5px 5px #bb9;
 }
 
 h2,
