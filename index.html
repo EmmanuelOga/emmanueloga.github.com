@@ -2,7 +2,7 @@
 layout: default
 title: Software and Other Stuff
 ---
-<div class="grid_8 prefix_2">
+<div class="grid_11 prefix_1">
   <p>
     Hi!, my name is Emmanuel.
     I'm a <a rel="me" href="http://ar.linkedin.com/in/emmanueloga">software developer</a>
@@ -14,23 +14,20 @@ title: Software and Other Stuff
 </div>
 <div class="clear"></div>
 
-<div class="grid_10 prefix_2">
+<div class="grid_11 prefix_1">
   <h2>Blog Posts</h2>
 </div>
 <div class="clear"></div>
 
-
 {% for post in site.posts %}
-
-  <div class="grid_2 prefix_2 align_right">
+  <div class="grid_2 prefix_1 align_right">
     <strong>{{ post.date | date_to_string }}</strong>
   </div>
 
-  <div class="grid_8">
+  <div class="grid_9">
     &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
   </div>
   <div class="clear"></div>
-
 {% endfor %}
 
 <br/>
