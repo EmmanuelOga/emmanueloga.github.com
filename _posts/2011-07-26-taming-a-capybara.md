@@ -31,7 +31,7 @@ and some others related, should it be helpful to anybody out there.
 Perhaps somebody will want to comment on better solutions for some of
 the nasty hacks.
 
-## Gemfile
+### Gemfile
 
 {% highlight ruby %}
 group :test do
@@ -48,7 +48,7 @@ group :test do
 end
 {% endhighlight %}
 
-## config/initializers/session_store.rb
+### config/initializers/session_store.rb
 
 {% highlight ruby %}
 # We deploy our application to several different subdomains, and we need
@@ -62,7 +62,7 @@ options[:domain] = Settings.cookies_host unless Rails.env.test?
 Rails.application.config.session_store :cookie_store, options
 {% endhighlight %}
 
-## spec/spec_helper.rb
+### spec/spec_helper.rb
 
 {% highlight ruby %}
 RSpec.configure do |config|
@@ -74,7 +74,7 @@ end
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each {|f| require f}
 {% endhighlight %}
 
-## spec/support/capybara.rb
+### spec/support/capybara.rb
 
 {% highlight ruby %}
 require "capybara/rails"
@@ -158,7 +158,7 @@ class Capybara::Driver::Webkit::Browser
 end
 {% endhighlight %}
 
-## Final Thoughts
+### Final Thoughts
 
 Even though the config above allows our acceptance tests to merrily run,
 I'm not completely satisfied with the hoops we needed to jump
