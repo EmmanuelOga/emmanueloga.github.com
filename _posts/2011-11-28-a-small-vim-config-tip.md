@@ -32,8 +32,10 @@ way, if someone browsing your config thinks the thing you are setting up
 there is cool, all he has to do is copy that single file to get
 the specific piece of functionality.
 
-BTW, since I use gvim most of the time, on the .gvimrc I just source the
-.vimrc, plus a few GUI tweaks (removing toolbars, menus, etc).
+BTW, since I use gvim most of the time, on the
+[.gvimrc](https://github.com/EmmanuelOga/vimrc/blob/master/gvimrc) I
+just source the .vimrc, plus a few GUI tweaks (removing toolbars, menus,
+etc).
 
 {% highlight vim %}
 source ~/.vim/vimrc
