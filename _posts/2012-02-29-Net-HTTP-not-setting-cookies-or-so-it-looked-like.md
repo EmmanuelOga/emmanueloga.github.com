@@ -15,7 +15,7 @@ url = "http://www.realtor.com/realestateandhomes-detail/3429-W-Lone-Mountain-Rd_
 uri = URI(url)
 http = Net::HTTP.new(uri.host, 80)
 request = Net::HTTP::Get.new(uri.request_uri)
-request['Cookie'] = "preference=USA" # This cookie is needed on realtor.com and should not hurt on century21.com.
+request['Cookie'] = "preference=USA"
 r = http.request(request)
 {% endhighlight %}
 
