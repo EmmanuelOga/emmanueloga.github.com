@@ -202,7 +202,7 @@ constant when something is going to be, well..., constant.
 
 ## Logging in users automagically
 
-Before putting these helper in place I had to define the current_user or
+Before putting these helpers in place I had to define the current_user or
 admin in each controller spec, and sign in in a before-filter as needed.
 Now, all I have to do is include a parameter in the describe block to
 acknowledge whether there should be an admin or a user logged in that
