@@ -316,4 +316,4 @@ for.
 
 The second one is a little different. Providing you have a good reason
 *not* to run some code when you are on an ec2 instance, then you can set
-up a block to be skip examples there.
+up a block to skip the examples there.
