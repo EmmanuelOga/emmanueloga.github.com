@@ -200,7 +200,7 @@ be **constant**, something that should not ever change unless I rewrite its
 value and redeploy my code. I think is just natural to use a ruby
 constant when something is going to be, well..., constant.
 
-## Logging in users in automagically
+## Logging in users automagically
 
 Before putting these helper in place I had to define the current_user or
 admin in each controller spec, and sign in in a before-filter as needed.
