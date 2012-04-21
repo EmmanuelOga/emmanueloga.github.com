@@ -291,7 +291,7 @@ RSpec.configure do |config|
   # Yep, if there is nothing filtered, run the whole thing.
   config.run_all_when_everything_filtered = true
 
-  # Do not run these specs on the continuous integration server
+  # Do not run these specs on ec2
   config.filter_run_excluding :bypass_on_ec2 => true if ec2_instance?
 end
 
