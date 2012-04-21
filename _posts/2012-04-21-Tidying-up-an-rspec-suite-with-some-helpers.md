@@ -137,7 +137,7 @@ describe XMLGeneratorThingie do
 end
 {% endhighlight %}
 
-Blank space and new lines do not matter on xml and I can strip them from
+Blank space and new lines does not matter on xml and I can strip them from
 both strings I'm comparing using the look_like helper. Because I control
 the generation of the xml, I know that it will work for all different
 outputs my code can generate.
