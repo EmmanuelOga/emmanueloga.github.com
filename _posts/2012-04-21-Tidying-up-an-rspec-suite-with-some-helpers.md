@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tidying up an rspec suite with some helpers
+title: Tidying up an rspec suite with helpers
 date: 21 April 2012
 ---
 
