@@ -45,7 +45,9 @@ library and karma as the runner. karma is possibly the [fastest and most
 complete js test runner](http://www.youtube.com/watch?feature=player_detailpage&v=Mb3_oT8ZreI&t=11) out
 there. And it is very well integrated with angular.
 
-<iframe class="text-center" width="560" height="315" src="//www.youtube.com/embed/Mb3_oT8ZreI" frameborder="0" allowfullscreen></iframe>
+<div class="text-center" >
+  <iframe width="560" height="315" src="//www.youtube.com/embed/Mb3_oT8ZreI" frameborder="0" allowfullscreen></iframe>
+</div>
 <br/>
 
 The experience of coding with Livereload is simply amazing. Immediate
@@ -111,7 +113,9 @@ the whole angular app as static assets in rails' public/ folder.
 
 Here's a diagram of the stack during development:
 
-<img src="https://raw.github.com/EmmanuelOga/simple-angular-rails-app/master/doc/layout.jpg" title="Application Layout" class="text-center">
+<div class="text-center" >
+  <img src="https://raw.github.com/EmmanuelOga/simple-angular-rails-app/master/doc/layout.jpg" title="Application Layout">
+</div>
 
 The grunt server task
 [proxies](http://github.com/EmmanuelOga/simple-angular-rails-app/blob/master/ngapp/Gruntfile.js#L65-L71)
