@@ -59,9 +59,9 @@ can [use bower with rails too](http://dev.af83.com/2013/01/02/managing-rails-ass
 But Yeoman's angular generator sets everything right for you with a
 single command.
 
-Rails was born in the request-response era of the web, and it
-shows. Yeoman sets up a web environment with defaults that are better
-suited for developing web applications.
+Rails was born in the request-response era of the web, and it shows.
+Yeoman sets up an environment with defaults that are better suited for
+developing web applications.
 
 ## Setting the environment up
 
@@ -71,34 +71,34 @@ You'll need:
 * node 0.10.13 ([nvm](https://github.com/creationix/nvm) recommended for installation)
 * Two shell sessions!
 
-### Session one: the rails backend:
+### Shell session one: the rails backend:
 
-```
+<pre>
 rvm use 1.9.3
 git clone https://github.com/EmmanuelOga/simple-angular-rails-app.git
 cd simple-angular-rails-app
 bundle install
 bundle exec rails s -p 3000
-```
+</pre>
 
 **NOTE**:  the angular application was generated using these commands.
 
-```
+<pre>
 npm install -g yo generator-angular
 mkdir ngapp; cd ngapp
 yo angular notes
-```
+</pre>
 
-### Session two: a grunt server
+### Shell session two: a grunt server
 
-```
+<pre>
 nvm use 0.10.13
 cd simple-angular-rails-app/ngapp
 npm install -g grunt-cli
 npm install
 bower install
 grunt server # opens a browser window... you are done!
-```
+</pre>
 
 ## What's going on?
 
@@ -129,9 +129,9 @@ for my silly example app!).
 
 To run both the backend tests and front end tests, you can run:
 
-```
+<pre>
 rake test PHANTOMJS_BIN=`which phantomjs`
-```
+</pre>
 
 This is done by [reopening rails's test
 task](https://github.com/EmmanuelOga/simple-angular-rails-app/blob/master/Rakefile#L8-L10)
