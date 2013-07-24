@@ -59,7 +59,7 @@ can [use bower with rails too](http://dev.af83.com/2013/01/02/managing-rails-ass
 But Yeoman's angular generator sets everything right for you with a
 single command.
 
-Rails was born in the request-response era of web applications, and it
+Rails was born in the request-response era of the web, and it
 shows. Yeoman sets up a web environment with defaults that are better
 suited for developing web applications.
 
