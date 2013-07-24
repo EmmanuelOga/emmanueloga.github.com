@@ -102,14 +102,14 @@ grunt server # opens a browser window... you are done!
 
 ## What's going on?
 
-During development, you need to run both the rails app and the grunt
-server. The reason is the html client was written as if the rails
-backend was an isolated, independent service, using
-[Yeoman](http://yeoman.io/) to scaffold the project.
+During development, you need to run both rails and the grunt server. The
+grunt server takes care of serving the assets (yes, it can serve
+coffeescript if you like that) and doing the live reloads.
 
-The intent is to **simulate** that the whole environment is a single web
-application. An, indeed, before deploying to prod we'll be consolidating
-the whole angular app as static assets in rails' public/ folder.
+We **simulate** that the whole environment is a single web application
+by running a proxy inside the grunt server. At some point during the
+production deploy process we'll be consolidating the whole angular app
+as a set of static assets in rails' public/ folder.
 
 Here's a diagram of the stack during development:
 
@@ -117,13 +117,20 @@ Here's a diagram of the stack during development:
   <img src="https://raw.github.com/EmmanuelOga/simple-angular-rails-app/master/doc/layout.jpg" title="Application Layout">
 </div>
 
+Would it make sense to go the extra mile and just host the angular app
+and the rails backend as separated processes? It would. But this setup
+allows you deploy the whole thing as a single app in the end, and have
+everything in a single domain easily.
+
 The grunt server task
 [proxies](http://github.com/EmmanuelOga/simple-angular-rails-app/blob/master/ngapp/Gruntfile.js#L65-L71)
 any url with path /api to the rails backend on localhost:3000.
 
-Rails is used in the backend, but really any web framework would be ok
-here ([sinatra](http://www.sinatrarb.com/) would make a lot more sense
-for my silly example app!).
+Would [sinatra](http://www.sinatrarb.com/) be a better choice for such a
+small app? It would... but the whole point of this blog post is to show
+a possible way of using angular and rails together. This setup should be
+usable if you already have a running rails app and you want to add some
+additional single-pagy parts to it.
 
 ## TESTING
 
