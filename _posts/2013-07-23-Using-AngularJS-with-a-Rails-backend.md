@@ -78,6 +78,7 @@ rvm use 1.9.3
 git clone https://github.com/EmmanuelOga/simple-angular-rails-app.git
 cd simple-angular-rails-app
 bundle install
+bundle exec rake db:migrate
 bundle exec rails s -p 3000
 </pre>
 
