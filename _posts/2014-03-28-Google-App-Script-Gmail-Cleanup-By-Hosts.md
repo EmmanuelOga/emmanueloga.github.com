@@ -45,8 +45,6 @@ risk!</strong>
 </div>
 
 <br/>
-<br/>
-<br/>
 
 Developing this script was fun but I found a few caveats because I was
 lazy and decided not to use the UI components and do the UI using
