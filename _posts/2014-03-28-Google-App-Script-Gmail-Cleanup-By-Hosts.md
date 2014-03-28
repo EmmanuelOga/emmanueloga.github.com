@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fun with Google's AppScript: Cleaning up Gmail emails by host
+title: Fun with Google's AppScript! Cleaning up Gmail emails by host
 date: 28 March 2014
 ---
 
