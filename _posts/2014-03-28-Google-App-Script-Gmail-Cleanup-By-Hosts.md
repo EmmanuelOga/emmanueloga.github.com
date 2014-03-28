@@ -23,7 +23,7 @@ Check it out: [the script I wrote to automate this task](https://script.google.c
 
 Here's how the resulting Script looks like:
 
-<div class="align_center" style="padding: 2em;">
+<div class="align_center" style="padding: 2em; border: 1px solid #ccc;">
   <img style="max-width: 85%;" src="/images/gmail-sweeper.png" title="Gmail Sweeper" alt="Gmail Sweeper Screenshot" />
 </div>
 
