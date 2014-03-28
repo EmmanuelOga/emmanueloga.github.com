@@ -4,13 +4,18 @@ title: Fun with Google's AppScript! Cleaning up Gmail emails by host
 date: 28 March 2014
 ---
 
-I have had three Gmail accounts for a while now. Some times I stop
-reading one of my two personal accounts for a while and when I come
-back, I need to deal with the mess of emails.
+Like everybody that has had the same email acount for a while, I receive
+a lot of emails. Most of them are automatic responses or update from
+sites like twitter.com, linkedin.com, facebook.com, plus.google.com,
+etc.. Others are mailing lists I signed up for and lost interest
+in, and so on.
 
-I've always wanted a feature in Gmail to automate this manual workflow:
+Sometimes I get tired of it and I just want to tell gmail: "delete all
+emails coming from *host.com*, for any number of hosts.
 
-1. Locate by visual inspection a host to delete
+My email managemenet workflow goes something like this:
+
+1. Locate by visual inspection a host I want to delete or archive
 2. Search "from:host", mark all emails for deletion
 3. Delete all marked emails
 4. Repeat for as many hosts as needed.
@@ -19,9 +24,9 @@ Since it is unlikely Gmail will ever include a feature to automate such
 specific workflow, I decided to give Google's
 [AppScript](https://developers.google.com/apps-script/) a try.
 
-Check it out: [the script I wrote to automate this task](https://script.google.com/d/12ONoFC4Cg05GQI1Q1Y8G50AfWk3wvdmkanTryZ6KndbAdt_l7GGYWqBZ/edit?usp=sharing).
+I got tired of doing this by hand and I wrote [a script to automate this task](https://script.google.com/d/12ONoFC4Cg05GQI1Q1Y8G50AfWk3wvdmkanTryZ6KndbAdt_l7GGYWqBZ/edit?usp=sharing).
 
-Here's how the resulting Script looks like (you need to be logged into
+Here's how the resulting Apps Script looks like (you need to be logged into
 Gmail for it to work).
 
 <div class="align_center" style="padding: 2em; border: 1px solid #ccc;">
@@ -37,18 +42,18 @@ The script is also able to archive emails coming from a certain host,
 and/or mark them as important.
 
 <div style="color: red; border: 2px dashed red; padding: 5px; margin: 5px;">
-The standard <strong>disclaimer</strong> applies: <strong>the script
-will erase your email! Normally it should only move emails from the
-hosts you select to your Trash folder, but use it at your own
+
+The standard <strong>disclaimer</strong> applies: <strong>this script
+will erase some of your emails! Normally it should only move emails from
+the hosts you select to your Trash folder, but use it at your own
 risk!</strong>
 </div>
 
 Developing this script was fun but I found a few caveats because I was
-lazy and decided not to use the UI components and do the UI using
-[html services](https://developers.google.com/apps-script/execution_web_apps) instead of the
-[ui services](https://developers.google.com/apps-script/guides/ui-service).
+lazy and decided not to use the [ui services](https://developers.google.com/apps-script/guides/ui-service).
+Instead, I used the [html services](https://developers.google.com/apps-script/execution_web_apps).
 
-AppScript uses [caja](https://code.google.com/p/google-caja/) under the
+Apps Script uses [caja](https://code.google.com/p/google-caja/) under the
 hood, so a lot of things are not allowed (e.g.: it did not allow me to
 add pictures, like a loading gif, or svg, to the page).
 
