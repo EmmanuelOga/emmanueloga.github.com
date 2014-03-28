@@ -27,6 +27,8 @@ Here's how the resulting Script looks like:
   <img style="max-width: 85%;" src="/images/gmail-sweeper.png" title="Gmail Sweeper" alt="Gmail Sweeper Screenshot" />
 </div>
 
+<br/>
+
 The script is also able to archive emails coming from a certain host,
 and/or mark them as important.
 
