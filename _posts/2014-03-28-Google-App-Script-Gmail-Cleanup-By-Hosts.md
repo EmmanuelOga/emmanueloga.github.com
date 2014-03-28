@@ -42,14 +42,13 @@ Gmail for it to work).
 The script is also able to archive emails coming from a certain host,
 and/or mark them as important.
 
-<div style="color: red; border: 2px dashed red; padding: 5px; margin: 5px;">
+<p style="color: red; border: 2px dashed red; padding: 5px; margin: 5px;">
 
 The standard <strong>disclaimer</strong> applies: <strong>this script
 will erase some of your emails! Normally it should only move emails from
 the hosts you select to your Trash folder, but use it at your own
 risk!</strong>
-</div>
-
+</p>
 
 Developing this script was fun but I found a few caveats because I was
 lazy and decided not to use the [ui services](https://developers.google.com/apps-script/guides/ui-service).
