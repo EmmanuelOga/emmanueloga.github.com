@@ -28,6 +28,8 @@ Here's how the resulting Script looks like:
 </div>
 
 <br/>
+<br/>
+<br/>
 
 The script is also able to archive emails coming from a certain host,
 and/or mark them as important.
