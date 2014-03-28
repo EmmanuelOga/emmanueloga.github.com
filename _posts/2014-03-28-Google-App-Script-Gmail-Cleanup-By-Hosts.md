@@ -25,7 +25,7 @@ Here's how the resulting Script looks like (you need to be logged into
 Gmail for it to work).
 
 <div class="align_center" style="padding: 2em; border: 1px solid #ccc;">
-  <a href="https://script.google.com/macros/s/AKfycbzjJCBslPATMZVvOPMVuwXRCLEAoeoZGAWwzUX4QgU/dev">
+  <a href="https://chrome.google.com/webstore/detail/gmail-sweeper/iabmkioocehcfbobkdchdmmidnjjipdn">
     <img style="max-width: 85%;" src="/images/gmail-sweeper.png" title="Gmail Sweeper" alt="Gmail Sweeper Screenshot" />
   </a>
 </div>
