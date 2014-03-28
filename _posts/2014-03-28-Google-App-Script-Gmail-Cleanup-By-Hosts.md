@@ -15,11 +15,11 @@ I've always wanted a feature in Gmail to automate this manual workflow:
 3. Delete all marked emails
 4. Repeat for as many hosts as needed.
 
-Since it is unlikely Gmail will ever include such specific feature, I
-decided to give Google's
+Since it is unlikely Gmail will ever include a feature to automate such
+specific workflow, I decided to give Google's
 [AppScript](https://developers.google.com/apps-script/) a try.
 
-You can [check the sources (and run the script!) here](https://script.google.com/d/12ONoFC4Cg05GQI1Q1Y8G50AfWk3wvdmkanTryZ6KndbAdt_l7GGYWqBZ/edit?usp=sharing).
+Check it out: [the script I wrote to automate this task](https://script.google.com/d/12ONoFC4Cg05GQI1Q1Y8G50AfWk3wvdmkanTryZ6KndbAdt_l7GGYWqBZ/edit?usp=sharing).
 
 Here's how the resulting Script looks like:
 
@@ -34,3 +34,16 @@ The standard <strong>disclaimer</strong> applies: <strong>the script
 will erase your email! Normally it should only move emails from the
 hosts you select to your Trash folder, but use it at your own
 risk!</strong>
+
+Developing this script was fun but I found a few caveats because I was
+lazy and decided not to use the UI components and do the UI using
+[html services](https://developers.google.com/apps-script/execution_web_apps) instead of the
+[ui services](https://developers.google.com/apps-script/guides/ui-service).
+
+AppScript uses [caja](https://code.google.com/p/google-caja/) under the
+hood, so a lot of things are not allowed (e.g.: it did not allow me to
+add pictures, like a loading gif, or svg, to the page).
+
+All in all it was a fun experience and I think AppScript is definitely a
+very useful tool to have in your toolbox if you use Google products like
+Gmail or Spreadsheets.
