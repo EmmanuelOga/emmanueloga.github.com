@@ -22,7 +22,8 @@ My email managemenet workflow goes something like this:
 
 Since it is unlikely Gmail will ever include a feature to automate such
 specific workflow, I decided to give Google's
-[AppScript](https://developers.google.com/apps-script/) a try.
+[Apps Script](https://developers.google.com/apps-script/) a try (not to
+confuse with [AppleScript](http://en.wikipedia.org/wiki/AppleScript) :p).
 
 I got tired of doing this by hand and I wrote [a script to automate this task](https://script.google.com/d/12ONoFC4Cg05GQI1Q1Y8G50AfWk3wvdmkanTryZ6KndbAdt_l7GGYWqBZ/edit?usp=sharing).
 
