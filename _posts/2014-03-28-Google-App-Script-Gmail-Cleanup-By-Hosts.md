@@ -10,8 +10,8 @@ sites like twitter.com, linkedin.com, facebook.com, plus.google.com,
 etc.. Others are mailing lists I signed up for and lost interest
 in, and so on.
 
-Sometimes I get tired of it and I just want to tell gmail: "delete all
-emails coming from *host.com*, for any number of hosts.
+Sometimes I get tired of the amount of emails to manage, and  I just want to tell Gmail: "delete all
+emails coming from *host.com*", for any number of hosts.
 
 My email managemenet workflow goes something like this:
 
