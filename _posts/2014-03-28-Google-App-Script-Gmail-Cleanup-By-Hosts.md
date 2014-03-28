@@ -21,10 +21,13 @@ specific workflow, I decided to give Google's
 
 Check it out: [the script I wrote to automate this task](https://script.google.com/d/12ONoFC4Cg05GQI1Q1Y8G50AfWk3wvdmkanTryZ6KndbAdt_l7GGYWqBZ/edit?usp=sharing).
 
-Here's how the resulting Script looks like:
+Here's how the resulting Script looks like (you need to be logged into
+Gmail for it to work).
 
 <div class="align_center" style="padding: 2em; border: 1px solid #ccc;">
-  <img style="max-width: 85%;" src="/images/gmail-sweeper.png" title="Gmail Sweeper" alt="Gmail Sweeper Screenshot" />
+  <a href="https://script.google.com/macros/s/AKfycbzjJCBslPATMZVvOPMVuwXRCLEAoeoZGAWwzUX4QgU/dev">
+    <img style="max-width: 85%;" src="/images/gmail-sweeper.png" title="Gmail Sweeper" alt="Gmail Sweeper Screenshot" />
+  </a>
 </div>
 
 <br/>
