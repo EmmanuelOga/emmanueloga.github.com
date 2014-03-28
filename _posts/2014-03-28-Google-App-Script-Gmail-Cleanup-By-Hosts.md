@@ -50,6 +50,8 @@ the hosts you select to your Trash folder, but use it at your own
 risk!</strong>
 </p>
 
+<br/>
+
 Developing this script was fun but I found a few caveats because I was
 lazy and decided not to use the [ui services](https://developers.google.com/apps-script/guides/ui-service).
 Instead, I used the [html services](https://developers.google.com/apps-script/execution_web_apps).
