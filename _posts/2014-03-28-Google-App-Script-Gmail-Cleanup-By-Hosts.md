@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fun with Google's AppScript! Cleaning up Gmail emails by host
+title: Fun with Google's Apps Script! Cleaning up Gmail emails by host
 date: 28 March 2014
 ---
 
@@ -17,7 +17,7 @@ I've always wanted a feature in Gmail to automate this manual workflow:
 
 Since it is unlikely Gmail will ever include a feature to automate such
 specific workflow, I decided to give Google's
-[AppScript](https://developers.google.com/apps-script/) a try.
+[Apps Script](https://developers.google.com/apps-script/) a try.
 
 Check it out: [the script I wrote to automate this task](https://script.google.com/d/12ONoFC4Cg05GQI1Q1Y8G50AfWk3wvdmkanTryZ6KndbAdt_l7GGYWqBZ/edit?usp=sharing).
 
